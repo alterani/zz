@@ -18,6 +18,9 @@
   --colore800: #424242;
   --colore900: #212121;
   --colore-accent: #4CAF50;
+  --colorerossostistorante: #963821;
+  --coloreverderistorante: #949966;
+
 }
 
 /* ==========================================================================
@@ -35,6 +38,8 @@
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+
 
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
@@ -497,7 +502,7 @@ a {
     text-decoration: none;
 }
 a:hover, a:active, a:focus {
-    color: var(--colore-accent);
+    color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #424242;
@@ -556,7 +561,7 @@ p {
 
 
 /* ==========================================================================
-   ***************CATERINGMILANO:IT STILE GENERICO
+   ***************PIZZAEMOZZARELLA:IT STILE GENERICO
    ========================================================================== */
 
 
@@ -566,30 +571,92 @@ body {
 }
 
 .mdl-layout__header {
-    background: #fff;
+    background: #342004;
     
 
 }
 .mdl-layout__header-row .mdl-navigation__link {
-    color: var(--colore800);
-    border-left: 1px solid #dce0e0; 
+    color: #342004;
+    color: #fff;
+    border-left: 1px solid #261702; 
 
 }
 .mdl-layout__header-row .mdl-navigation__link:hover{
 
-  background: var(--colore100);
+  background: #261702;
 }
 .mdl-layout__header .mdl-layout__drawer-button {
-    color: var(--colore600); 
+    color: #fff; 
     
 }
 .mdl-layout__header-row .mdl-layout-title {
-  color: var(--colore600);
-  border-left: 1px solid #dce0e0; 
+  color: #fff;
+  border-left: 1px solid #261702; 
   line-height: 64px;
   padding: 0 24px;
 
 }
+
+
+.divbianco {
+    height: 45vh;
+    width: 100vw;
+    min-height: 195px;
+    
+}
+
+.divrosso_secondo {
+    height: 2vh;
+    width: 100vw;
+    background-color: #963821;
+}
+
+.divbiancosecondo {
+    height: 2vh;
+    width: 100vw;
+    
+}
+
+
+.divrosso_prima {
+    height: 4vh;
+    width: 100vw;
+    background-color: #963821;
+}
+
+.divbiancoterzo {
+    height: 2vh;
+    width: 100vw;
+    
+}
+
+.divverde {
+    height: 40vh;
+    width: 100vw;
+    background-color: #949966;
+}
+
+.adattaimmagine {
+    width: 40%;
+    min-width: 180px;
+    position: absolute;
+    top: 8%;
+    left: 28%;
+}
+
+@media only screen and (max-device-width: 480px){
+  .adattaimmagine {
+    width: 60%;
+    min-width: 180px;
+    position: absolute;
+    top: 8%;
+    left: 18%;
+    }
+}
+
+
+
+
 
 /*
 .mdl-layout__drawer-button{
@@ -619,7 +686,7 @@ body {
 }
 
 .mdl-layout__drawer-button .material-icons{
-  color: var(--colore-accent);
+  color: #fff;
 
 }
 .mdl-layout__drawer-button:hover .material-icons{
@@ -628,11 +695,11 @@ body {
 
 
 .toolbar_icon{
-  color: var(--colore400);
+  color: #fff;
   margin-left: 0.2em;
 }
 .toolbar_arrow{
-  color: var(--colore800);
+  color: #fff;
   margin-left: 0.1em;
 }
 
@@ -641,19 +708,19 @@ body {
 }
 
 .toolbar_call{
-  color: var(--colore-accent);
+  color: #fff;
   margin-left: 0.1em;
   padding-left: 1em;
 }
 .link_assistenza{
-  color: var(--colore-accent) !important;
+  color: #fff !important;
 }
 #menu_assistenza{
   border-left: 1px solid #dce0e0; 
   line-height: 64px;
   height:64px;
   padding: 0;
-  color: var(--colore-accent)
+  color: #fff;
  }
 .item_assistenza{
 
