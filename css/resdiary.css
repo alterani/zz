@@ -1,0 +1,30 @@
+/* ==========================================================================
+   SEZIONE MODIFICA READIARY
+   ========================================================================== */
+
+/*.resdiary-chosen-logo {
+    display: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+}
+*/
+.resdiary-chosen-logo {
+    content: url('https://www.pizzaemozzarella.it/img/pizza_logo.svg') !important;
+}
+
+/*.has-error{
+  border-color: #ea4747fc !important;
+
+}
+*/
+
+.form-control.has-error{
+  border-color: #ea4747fc !important;
+  background-color: #FFB3B3 !important;
+}
+
+a{
+  color: #963821 !important;
+};
+
+

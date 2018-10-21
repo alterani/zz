@@ -10,6 +10,24 @@ app.get('/', function(req, res){
     res.sendfile('index.html');
 });
 
+app.get('/prenota', function(req, res){
+    res.sendfile('prenota.html');
+});
+
+app.get('/prenota.html', function(req, res){
+    res.sendfile('prenota.html');
+});
+
+
+app.get('/conferma', function(req, res){
+    res.sendfile('conferma.html');
+});
+
+app.get('/prenota.html', function(req, res){
+    res.sendfile('prenota.html');
+});
+
+
 app.get('/favicon.ico', function(req, res){
     res.sendfile('favicon.ico');
 });
