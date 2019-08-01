@@ -1,9 +1,6 @@
 <?php 
 
-$opts = array('http' => array('header' => "User-Agent:MyAgent/1.0\r\n"));
-$context = stream_context_create($opts);
-
-$content = file_get_contents('https://booking.resdiary.com/widget/Mini/Portrait/PizzaeMozzarella/6674',FALSE, $context);
+$content = file_get_contents('https://booking.resdiary.com/widget/Mini/Portrait/PizzaeMozzarella/6674');
 //$content = file_get_contents('https://booking.resdiary.com/widget/standard/PizzaeMozzarella/6674');
 //$content = file_get_contents('https://booking.resdiary.com/widget/FixedSize/PizzaeMozzarella/6674');
 
